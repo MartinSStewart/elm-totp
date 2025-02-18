@@ -1,13 +1,14 @@
 {
     "type": "package",
     "name": "choonkeat/elm-totp",
-    "summary": "Library for Elm to generate TOTP url keys and code",
+    "summary": "Create TOTP urls and code. Useful for 2FA and authenticators.",
     "license": "BSD-3-Clause",
     "version": "1.1.1",
     "exposed-modules": [
         "TOTP",
         "TOTP.Algorithm",
-        "TOTP.Key"
+        "TOTP.Key",
+        "TOTP.Base32String"
     ],
     "elm-version": "0.19.0 <= v < 0.20.0",
     "dependencies": {
